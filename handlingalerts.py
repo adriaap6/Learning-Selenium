@@ -13,6 +13,7 @@ driver.find_element(By.ID, "alertButton").click()
 time.sleep(2)
 # driver.switch_to.alert.accept()
 
+
 try:
     alert = driver.switch_to.alert
     alert.accept()
